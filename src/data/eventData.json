@@ -9,7 +9,7 @@
             "indoor",
             "grade schoolers"
         ],
-        "image_name": "sf_moma.jpg"
+        "image_name": "/images/sf_moma.jpg"
     },
     {
         "tags": [
@@ -21,7 +21,7 @@
         "event_name": "The Lawrence at Home Live Storytime",
         "description": "Join The Lawrence at Home where kids and families can look forward to exploring, investigating, discovering and inventing through DIY projects, meeting animal friends, science demonstrations and shows, astronomy and nature walks – PLUS, ways for parents to connect with each other.",
         "venu_name": "Lawrence at Home",
-        "image_name": "lawrence_hall.jpg"
+        "image_name": "/images/lawrence_hall.jpg"
     },
     {
         "venue_name": "MOCHA",
@@ -32,7 +32,7 @@
             "music",
             "grade schoolers"
         ],
-        "image_name": "mocha.png"
+        "image_name": "/images/mocha.png"
     },
     {
         "venue_name": "Future Star Baseball",
@@ -44,7 +44,7 @@
             "virtual",
             "grade schoolers"
         ],
-        "image_name": "workout.jpg"
+        "image_name": "/images/workout.jpg"
     },
     {
         "venue_name": "ANTS",
@@ -55,7 +55,7 @@
             "indoor",
             "grade schoolers"
         ],
-        "image_name": "yoga.jpg"
+        "image_name": "/images/yoga.jpg"
     },
     {
         "venue_name": "Albany Bowl",
@@ -68,7 +68,7 @@
             "grade schoolers",
             "preschoolers"
         ],
-        "image_name": "albany_bowl.jpg"
+        "image_name": "/images/albany_bowl.jpg"
     },
     {
         "venue_name": "Sticky Art Lab",
@@ -81,7 +81,7 @@
             "grade schoolers",
             "preschoolers"
         ],
-        "image_name": "sticky_art.jpg"
+        "image_name": "/images/sticky_art.jpg"
     },
     {
         "venue_name": "Bay Street",
@@ -94,7 +94,7 @@
             "outdoors",
             "performance"
         ],
-        "image_name": "bay_street.jpg"
+        "image_name": "/images/bay_street.jpg"
     },
     {
         "venue_name": "2 for $20 Pinball Play",
@@ -105,7 +105,7 @@
             "museum",
             "grade schoolers"
         ],
-        "image_name": "pinball.jpg"
+        "image_name": "/images/pinball.jpg"
     },
     {
         "venue_name": "BAMFA",
@@ -120,7 +120,7 @@
             "preschoolers",
             "grade schoolers"
         ],
-        "image_name": "BAMFA.jpg"
+        "image_name": "/images/BAMFA.jpg"
     },
     {
         "venue_name": "Berkeley Public Library",
@@ -132,6 +132,6 @@
             "indoor",
             "grade schoolers"
         ],
-        "image_name": "berkeley_library.jpg"
+        "image_name": "/images/berkeley_library.jpg"
     }
 ]
