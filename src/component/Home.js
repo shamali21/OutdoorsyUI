@@ -4,7 +4,9 @@ import Event from '../data/eventData.json'
 class Home extends Component{
   render(){
     return(
-      <div> <h4 className="center">Home</h4>
+      <div> <h4 className="center">Home
+       <input type="text" placeholder="Enter item to be searched"  onChange={(e)=>this.searchSpace(e)} />
+      {}</h4>
       { Event.map((event,index)=>{
         return(
           <div className="post card" key={ index }>
@@ -16,11 +18,10 @@ class Home extends Component{
                     </div>
         )
       })
-
       }
       </div>
+
     )
   }
 }
-
 export default Home
