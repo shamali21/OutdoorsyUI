@@ -2,11 +2,14 @@ import React, { Component } from 'react';
 import Navbar from './component/Navbar'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from './component/Home'
+import "./App.css";
+
 
 
 class App extends Component {
   render() {
     return (
+      
       <BrowserRouter>
         <div className="App">
           <Navbar />
@@ -16,6 +19,7 @@ class App extends Component {
             <Route path='/contact' component= { Contact } /> */}
             {/* <Route path='/:post_id' component= { Post } /> */}
           </Switch>
+         
         </div>
       </BrowserRouter>
       
