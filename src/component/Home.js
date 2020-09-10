@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import MenuItem from "@material-ui/core/MenuItem";
 import Select from "@material-ui/core/Select";
-
+const styles ={
+  color: 'black',
+  fontSize: '15px',
+  paddingRight: '20px'
+}
 const options = [
   "All",
   "outdoors",
@@ -53,8 +57,8 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <label>
-          Filter tags:
+        <label className="right" style={styles}>
+          Select Filter Options:
           <Select
             labelId="demo-simple-select-label"
             value={this.state.value}
@@ -65,10 +69,10 @@ class Home extends Component {
             ))}
           </Select>
         </label>
-        <h4 className="center">Home</h4>
+        <h4 className="center blue-text" style={{fontSize:'20px', paddingRight:'800px'}}>Amazing things happen when you distance yourself from the screen!</h4>
         {this.filterEvents().map((event, index) => {
           return (
-            <div className="post card" key={index}>
+            <div className="post card center" key={index}>
               <img
                 src={event.image_name}
                 width="300"
@@ -76,8 +80,8 @@ class Home extends Component {
                 alt="logo"
               ></img>
               <div className="card-content">
-                <span className="card-title blue-text">{event.event_name}</span>
-                <p>{event.description}</p>
+                <span className="card-title blue-text ">{event.event_name}</span>
+                <p >{event.description}</p>
               </div>
             </div>
           );
