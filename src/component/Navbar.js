@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link, withRouter} from 'react-router-dom'
-
+import { Icon } from 'react-icons-kit'
+import {u1F340} from 'react-icons-kit/noto_emoji_regular/u1F340'
 const Navbar = (props) => {
 
     // added redirect to Home page after 2000 ms 
@@ -14,7 +15,7 @@ const Navbar = (props) => {
             <Link className="brand-logo" to="/" style={{
           display: "flex",
           alignItems: "left"
-        }}>Cultiveit</Link>
+        }}><Icon size={30} icon={u1F340} />Cultiveit</Link>
             <ul className="right">
                 <li><Link to='/'>Home</Link></li>
             </ul>
