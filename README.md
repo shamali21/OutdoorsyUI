@@ -1,3 +1,6 @@
+A simple UI application to display json data built using ReactJS. 
+Allows the users to filter the data based on tags. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
